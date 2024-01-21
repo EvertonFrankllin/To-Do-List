@@ -1,7 +1,44 @@
+document.addEventListener('DOMContentLoaded', () => {
 
-const button = document.querySelector('.button-add-task');
-const input = document.querySelector('.task-inp');
+    const button = document.querySelector('.button-add-task');
+    const input = document.querySelector('.task-inp');
 
-button.addEventListener('click', () => {
-    console.log(input.value);
+    let addTaskLi = [];
+    
+        function addnewTask(){
+            addTaskLi.push(input.value);
+            console.log(addTaskLi);
+        };
+
+    button.addEventListener('click', addnewTask);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
