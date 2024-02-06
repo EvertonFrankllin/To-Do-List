@@ -4,11 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const input = document.querySelector('.task-inp');
     const completList = document.querySelector('.list-task');
     
-
-
-        
-    
-
     let addTaskLi = [];
     
         function addnewTask(){
@@ -33,12 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
             completList.innerHTML = newLi;
 
         };
-        
-        
+          
     button.addEventListener('click', addnewTask);
 
-    
-   
 });
 
 
